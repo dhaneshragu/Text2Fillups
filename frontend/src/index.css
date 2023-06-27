@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body, #app, #app>div {
+  margin:0;
+  padding: 0;
+  background-color: #111927;
+    background-image: 
+        radial-gradient(at 47% 33%, hsl(342, 50%, 26%) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(342.46, 49%, 25%) 0, transparent 55%);
+    background-attachment: fixed;
+
+}
+
+div#root{
+  margin: 0;
+  padding: 0;
+}

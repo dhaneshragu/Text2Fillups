@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@450&display=swap');
+
+* {
+  margin: 0;
+  font-family: 'Exo', sans-serif;
+  color: white;
+  box-sizing: border-box;
+}
+
+
+.navbar {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    backdrop-filter: blur(18px) saturate(79%);
+    -webkit-backdrop-filter: blur(18px) saturate(79%);
+    background-color: rgba(218, 138, 164, 0.11);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.125);
+
+  }
+  .navbar h1 {
+
+    color: rgb(205, 196, 200);
+  }
+  .navbar .links {
+
+    font-size: large;
+    margin-left: auto;
+
+  }
+  a {
+   color: #e89cb3;
+  }
+  .navbar a {
+   
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 16px;
+  }
+  .navbar a:hover {
+ 
+    color: #f1356d;
+  }

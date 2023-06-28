@@ -51,7 +51,7 @@ export default function ViewFillups() {
 
   const handleLinkGenerate = () => {
     setLoading(true);
-    Axios.post("http://localhost:5000/create-form", {
+    Axios.post("http://localhost:5005/create-form", {
       data: data,
     })
       .then((res) => {
@@ -89,7 +89,7 @@ export default function ViewFillups() {
             setToast(false);
           }}
           severity="info"
-          sx={{ width: "100%" , backgroundColor:'#1f8ba6'}}
+          sx={{ width: "100%", backgroundColor: "#1f8ba6" }}
         >
           Link copied to Clipboard!
         </Alert>
@@ -241,12 +241,20 @@ export default function ViewFillups() {
         </>
       ) : (
         <Container sx={{ mt: "11%" }}>
-          <h1 style={{textAlign:"center",backdropFilter: "blur(18px) saturate(120%)",
-                              WebkitBackdropFilter: "blur(18px) saturate(120%)",
-                              backgroundColor: "rgba(255, 255, 255, 0.09)", padding:'1rem', borderRadius:'20px', fontWeight:550}}>
-            Uh-oh 🙊✨! <br></br> Our AI friend seems to have misplaced its spectacles and
-            couldn't locate any questions.<br></br> Let's give it another shot
-            with different text, shall we? 🤔✨
+          <h1
+            style={{
+              textAlign: "center",
+              backdropFilter: "blur(18px) saturate(120%)",
+              WebkitBackdropFilter: "blur(18px) saturate(120%)",
+              backgroundColor: "rgba(255, 255, 255, 0.09)",
+              padding: "1rem",
+              borderRadius: "20px",
+              fontWeight: 550,
+            }}
+          >
+            Uh-oh 🙊✨! <br></br> Our AI friend seems to have misplaced its
+            spectacles and couldn't locate any questions.<br></br> Let's give it
+            another shot with different text, shall we? 🤔✨
           </h1>
         </Container>
       )}

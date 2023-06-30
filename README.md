@@ -11,7 +11,7 @@ Text2Fillups is a web-based application that allows users to generate fill-in-th
 3. Install the required dependencies by running: `npm install`.
 4. Start the backend server by running: `npm start`.
 5. Install the Python dependencies by running: `pip install -r requirements.txt`.
-6. Run the Python application by executing: `python app.py`.
+6. Run the Flask application by executing: `python app.py`.
 
 ### Frontend User Interface
 

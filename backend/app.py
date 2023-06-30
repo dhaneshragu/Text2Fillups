@@ -173,7 +173,7 @@ def model_loader():
 
 
 ########################### ROUTES ##################################
-@app.route('/flask', methods=['GET'])
+@app.route('/', methods=['GET'])
 @cross_origin(supports_credentials=True)
 def flask():
     return jsonify({"data": "I am from Flask"})

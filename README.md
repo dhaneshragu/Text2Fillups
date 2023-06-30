@@ -1,4 +1,5 @@
 # Text2Fillups
+# Instructions to start :
 First of all , go to the folder where this repo is cloned.
 # To start the backend server:
 - Then `cd backend`, then `npm install` and `npm start`

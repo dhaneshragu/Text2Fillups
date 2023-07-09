@@ -79,4 +79,4 @@ using t-5 transformer fine-tuned on QA2D dataset.
 That's it! You are now ready to use Text2Fillups and generate fill-in-the-blank questions from texts. Enjoy! 🚀📚
 
 ## 🦾 Contributors
-- ![Dhanesh](https://github.com/dhaneshragu),CSE, IIT Guwahati.
+- [Dhanesh](https://github.com/dhaneshragu) ,CSE , IIT Guwahati.

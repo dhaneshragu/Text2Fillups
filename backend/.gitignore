@@ -1,6 +1,7 @@
 # Dependency directories
 /node_modules
 /env
+credentials.json
 # Optional npm cache directory
 .npm
 

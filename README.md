@@ -17,6 +17,17 @@ Text2Fillups is a web-based ML application that allows users to generate fill-in
 <img src="https://img.shields.io/badge/Google Forms-B366F6?logo=googlesheets&logoColor=white&style=flat" />
 </p>
 
+## 📽️ Video Demo 
+To be updated
+## 🧠 Overview 
+1. The text corpus is taken as input from the user and question answer pairs are generated using t-5 transfomer model from [hugging face](https://github.com/patil-suraj/question_generation) for the task of **context-aware question generation**. (generates question and answer pairs using a context).
+2. Then these question answer pairs are converted to normal sentences (For eg: {"Question":"What is your name ?", "Answer":"Dhanesh"} is converted to "My name is Dhanesh")
+using t-5 transformer fine-tuned on QA2D dataset.
+3. The fine tuned model is pushed in [hugging-face hub](https://huggingface.co/DhaneshV/T2FPipeline) for further usage.
+4. To reduce the inference time and reduce the model size, I have quantized the fine-tuned transformer using ONNX and fast-t5 library that reduced the size of model from around 900MB to around 400MB.
+5. The answer word is blanked and displayed in the webapp with toggle feature.
+6. Additionally, a google quiz link containing all these questions are created using google forms API in backend, which can be shared to test the topic readily.
+
 ## 🙌 Instructions to Get Started
 - First of all `git clone` this repository and go to the appropriate folder in your local machine.
 ### 📜 Getting credentials for GoogleFormsAPI

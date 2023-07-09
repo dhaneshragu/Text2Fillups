@@ -31,7 +31,7 @@ https://github.com/dhaneshragu/Text2Fillups/assets/95169037/15c66139-2e3b-4acb-9
 
 - The toggle feature has been implemented in the question answer cards to hide and unhide the answers.
 
-### Toast Messages
+### 🍞 Toast Messages
 <img width="540px" alt="image" src="https://github.com/dhaneshragu/Text2Fillups/assets/95169037/e7997ce2-3b33-41f2-b091-3f669e542c6f">
 
 - Toast messages are displayed wherever necessary, to indicate a completion of a process, for a better accessibility.

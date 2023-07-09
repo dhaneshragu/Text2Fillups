@@ -77,3 +77,6 @@ using t-5 transformer fine-tuned on QA2D dataset.
 4. Start the frontend development server by running: `npm start`.
 
 That's it! You are now ready to use Text2Fillups and generate fill-in-the-blank questions from texts. Enjoy! 🚀📚
+
+## 🦾 Contributors
+- ![Dhanesh](https://github.com/dhaneshragu),CSE, IIT Guwahati.

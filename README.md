@@ -20,7 +20,7 @@ Text2Fillups is a web-based ML application that allows users to generate fill-in
 ## 📽️ Video demo
 https://github.com/dhaneshragu/Text2Fillups/assets/95169037/15c66139-2e3b-4acb-9daf-d01951b689ea
 
-## 🔥 Features
+## 🔥 Web-app Features
 ### 💻 Stylish glassmorphism UI
 <img width="540" alt="image" src="https://github.com/dhaneshragu/Text2Fillups/assets/95169037/ba89ac82-9778-434f-99e9-06b80f51ea39">
 

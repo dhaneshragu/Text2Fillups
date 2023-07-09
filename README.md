@@ -20,6 +20,29 @@ Text2Fillups is a web-based ML application that allows users to generate fill-in
 ## 📽️ Video demo
 https://github.com/dhaneshragu/Text2Fillups/assets/95169037/15c66139-2e3b-4acb-9daf-d01951b689ea
 
+## 🔥 Features
+### 💻 Stylish glassmorphism UI
+<img width="540" alt="image" src="https://github.com/dhaneshragu/Text2Fillups/assets/95169037/ba89ac82-9778-434f-99e9-06b80f51ea39">
+
+- The UI has been created using material-ui react library. 
+
+### 📜 Toggle Feature for questions
+<img src="https://github.com/dhaneshragu/Text2Fillups/assets/95169037/22bc462a-9a5b-4887-afd5-839da8641d53" width="540px">
+
+- The toggle feature has been implemented in the question answer cards to hide and unhide the answers.
+
+### Toast Messages
+<img width="540px" alt="image" src="https://github.com/dhaneshragu/Text2Fillups/assets/95169037/e7997ce2-3b33-41f2-b091-3f669e542c6f">
+
+- Toast messages are displayed wherever necessary, to indicate a completion of a process, for a better accessibility.
+
+### 🔗 Google Quiz link
+<img src="https://github.com/dhaneshragu/Text2Fillups/assets/95169037/cb7dfc27-f268-49da-ab91-ef24de94d022" width="540px">
+<img width="540px" alt="image" src="https://github.com/dhaneshragu/Text2Fillups/assets/95169037/21b2f779-e251-4362-a6b8-25730f3efdf6">
+
+- Google quiz link is readily generated for assessment of the topic.
+
+
 ## 🧠 Overview 
 1. The text corpus is taken as input from the user and question-answer pairs are generated using the t-5 transformer model from [hugging face](https://github.com/patil-suraj/question_generation) for the task of **context-aware question generation**. (generates question and answer pairs using a context).
 2. Then these question-answer pairs are converted to normal sentences (For e.g.: `{"Question":"What is your name ?", "Answer":"Dhanesh"}` is converted to "My name is Dhanesh")

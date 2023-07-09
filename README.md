@@ -1,4 +1,4 @@
-# Text2Fillups
+<h1 align="center">Text2Fillups</h1>
 <p align="center">
 <img src="https://github.com/dhaneshragu/Text2Fillups/assets/95169037/7e219ab1-640c-4386-a3fa-b19485372387" width="200px"/>
 </p>
@@ -18,7 +18,8 @@ Text2Fillups is a web-based ML application that allows users to generate fill-in
 </p>
 
 ## 📽️ Video Demo 
-To be updated
+https://github.com/dhaneshragu/Text2Fillups/assets/95169037/741bea4e-d0d8-4ed0-ad62-e4ae5530f0ba
+
 ## 🧠 Overview 
 1. The text corpus is taken as input from the user and question answer pairs are generated using t-5 transfomer model from [hugging face](https://github.com/patil-suraj/question_generation) for the task of **context-aware question generation**. (generates question and answer pairs using a context).
 2. Then these question answer pairs are converted to normal sentences (For eg: {"Question":"What is your name ?", "Answer":"Dhanesh"} is converted to "My name is Dhanesh")
@@ -30,13 +31,14 @@ using t-5 transformer fine-tuned on QA2D dataset.
 
 ## 🙌 Instructions to Get Started
 - First of all `git clone` this repository and go to the appropriate folder in your local machine.
+
 ### 📜 Getting credentials for GoogleFormsAPI
 1. Create an account on https://console.cloud.google.com/ and create a new project.
 2. In the `API & Services` section enable the API for `Google Forms`.
 3. Generate a new `OAuth 2.0 Client ID` and download the json file containing `Client_ID` and `Client_Secrets`.
 4. Save this json as `credentials.json` in the `backend` folder.
-### 🔌 Backend Server
 
+### 🔌 Backend Server
 1. Navigate to the folder where this repository is cloned.
 2. Open the terminal and navigate to the `backend` directory using the command: `cd backend`.
 3. Install the required dependencies by running: `npm install`.

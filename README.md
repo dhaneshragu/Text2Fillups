@@ -1,6 +1,6 @@
 <h1 align="center">Text2Fillups</h1>
 <p align="center">
-<img src="https://github.com/dhaneshragu/Text2Fillups/assets/95169037/7e219ab1-640c-4386-a3fa-b19485372387" width="200px"/>
+<img src="https://github.com/dhaneshragu/Text2Fillups/assets/95169037/1abdd222-1572-4a8c-be9b-2c59bbdbcf89" width="200px"/>
 </p>
 Text2Fillups is a web-based ML application that allows users to generate fill-in-the-blank questions from given texts. This repository contains the code for both the backend server and the frontend user interface, as well as model training and inference notebooks.
 
@@ -17,20 +17,20 @@ Text2Fillups is a web-based ML application that allows users to generate fill-in
 <img src="https://img.shields.io/badge/Google Forms-B366F6?logo=googlesheets&logoColor=white&style=flat" />
 </p>
 
-## 📽️ Video Demo 
-https://github.com/dhaneshragu/Text2Fillups/assets/95169037/741bea4e-d0d8-4ed0-ad62-e4ae5530f0ba
+## 📽️ Video demo
+https://github.com/dhaneshragu/Text2Fillups/assets/95169037/15c66139-2e3b-4acb-9daf-d01951b689ea
 
 ## 🧠 Overview 
-1. The text corpus is taken as input from the user and question answer pairs are generated using t-5 transfomer model from [hugging face](https://github.com/patil-suraj/question_generation) for the task of **context-aware question generation**. (generates question and answer pairs using a context).
-2. Then these question answer pairs are converted to normal sentences (For eg: {"Question":"What is your name ?", "Answer":"Dhanesh"} is converted to "My name is Dhanesh")
+1. The text corpus is taken as input from the user and question-answer pairs are generated using the t-5 transformer model from [hugging face](https://github.com/patil-suraj/question_generation) for the task of **context-aware question generation**. (generates question and answer pairs using a context).
+2. Then these question-answer pairs are converted to normal sentences (For e.g.: `{"Question":"What is your name ?", "Answer":"Dhanesh"}` is converted to "My name is Dhanesh")
 using t-5 transformer fine-tuned on QA2D dataset.
-3. The fine tuned model is pushed in [hugging-face hub](https://huggingface.co/DhaneshV/T2FPipeline) for further usage.
-4. To reduce the inference time and reduce the model size, I have quantized the fine-tuned transformer using ONNX and fast-t5 library that reduced the size of model from around 900MB to around 400MB.
-5. The answer word is blanked and displayed in the webapp with toggle feature.
-6. Additionally, a google quiz link containing all these questions are created using google forms API in backend, which can be shared to test the topic readily.
+3. The fine-tuned model is pushed in [hugging-face hub](https://huggingface.co/DhaneshV/T2FPipeline) for further usage.
+4. To reduce the inference time and reduce the model size, I have quantized the fine-tuned transformer using ONNX and fast-t5 library that reduced the size of the model from around 900MB to around 400MB. The models and relevant notebooks are uploaded in `Fine-tuning-notebook/Quantized-model`.
+5. The answer word is blanked and displayed in the web app with a toggle feature.
+6. Additionally, a Google quiz link containing all these questions is created using google forms API in the backend, which can be shared to test the topic readily.
 
 ## 🙌 Instructions to Get Started
-- First of all `git clone` this repository and go to the appropriate folder in your local machine.
+- First of all, `git clone` this repository and go to the appropriate folder in your local machine.
 
 ### 📜 Getting credentials for GoogleFormsAPI
 1. Create an account on https://console.cloud.google.com/ and create a new project.

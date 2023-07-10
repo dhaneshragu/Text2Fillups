@@ -80,3 +80,5 @@ That's it! You are now ready to use Text2Fillups and generate fill-in-the-blank 
 
 ## 🦾 Contributors
 - [Dhanesh](https://github.com/dhaneshragu) ,CSE , IIT Guwahati.
+## 🌟 Stay connected
+Don't forget to ⭐️ star this repository to show your support and stay connected for future updates!

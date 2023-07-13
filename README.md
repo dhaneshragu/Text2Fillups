@@ -54,7 +54,7 @@ using t-5 transformer fine-tuned on QA2D dataset.
 
 ## 📊 Metrics from Weights and Biases
 I used weights and biases to log metrics like epochs, train_acc, valid_acc, BLEU score etc.
-![Click](https://wandb.ai/wordless-souls/Text2Questions/runs/nzgilan5?workspace=user-dhaneshv) here to view them.
+[Click](https://wandb.ai/wordless-souls/Text2Questions/runs/nzgilan5?workspace=user-dhaneshv) here to view them.
 ## 🙌 Instructions to Get Started
 - First of all, `git clone` this repository and go to the appropriate folder in your local machine.
 

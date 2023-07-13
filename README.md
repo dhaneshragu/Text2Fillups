@@ -52,6 +52,9 @@ using t-5 transformer fine-tuned on QA2D dataset.
 5. The answer word is blanked and displayed in the web app with a toggle feature.
 6. Additionally, a Google quiz link containing all these questions is created using google forms API in the backend, which can be shared to test the topic readily.
 
+## 📊 Metrics from Weights and Biases
+I used weights and biases to log metrics like epochs, train_acc, valid_acc, BLEU score etc.
+![Click](https://wandb.ai/wordless-souls/Text2Questions/runs/nzgilan5?workspace=user-dhaneshv) here to view them.
 ## 🙌 Instructions to Get Started
 - First of all, `git clone` this repository and go to the appropriate folder in your local machine.
 
